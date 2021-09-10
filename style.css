@@ -9,4 +9,90 @@
 	width: 1170px;
 	margin: 2rem auto;
 }
+
+body {
+	margin: auto;
+	width: 80%;
+	background-color: black;
+}
 /* /common_rules */
+
+/* .debug */
+.debug header {
+	background-color: rgba(255, 0, 0, 0.404);
+	height: 500px;
+}
+
+.debug main {
+	height: 2000px;
+	background-color: rgba(207, 40, 40, 0.137);
+}
+
+.debug footer {
+	height: 500px;
+	background-color: rgba(127, 255, 212, 0.151);
+}
+
+.debug .section_nav {
+	background-color: rgb(255, 255, 0);
+	height: 100px;
+}
+
+.debug .section_image {
+	background-color: rgba(137, 43, 226, 0.192);
+	height: 400px;
+}
+
+.debug .chat {
+	background-color: rgba(238, 130, 238, 0.418);
+	height: 500px;
+}
+.debug .voice_connected {
+	background-color: rgba(0, 128, 0, 0.39);
+	height: 500px;
+}
+
+.debug .fandom {
+	background-color: rgba(255, 166, 0, 0.438);
+	height: 500px;
+}
+
+.debug .tool_action {
+	background-color: rgba(240, 248, 255, 0.473);
+	height: 500px;
+}
+
+.debug .primary {
+	background-color: #e4e4b754;
+	height: 80px;
+}
+.debug .products {
+	background-color: rgba(204, 152, 218, 0.39);
+	height: 80px;
+}
+
+.debug .company {
+	background-color: rgba(183, 228, 146, 0.37);
+	height: 80px;
+}
+
+.debug .resources {
+	background-color: rgba(224, 140, 165, 0.329);
+	height: 80px;
+}
+
+.debug .standards {
+	background-color: rgba(154, 235, 228, 0.342);
+	height: 80px;
+}
+
+.debug .logo {
+	background-color: rgba(219, 173, 161, 0.363);
+	height: 20px;
+}
+
+.debug .sign_in {
+	background-color: rgba(221, 170, 213, 0.329);
+	height: 20px;
+}
+/* /.debug */
