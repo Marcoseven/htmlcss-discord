@@ -28,6 +28,7 @@ body {
 .sign_in {
 	float: left;
 	width: 33.33%;
+	text-align: center;
 }
 
 .text,
@@ -56,12 +57,18 @@ body {
 	display: inline-block;
 	width: 49.8%;
 }
+
+#button_logo {
+	cursor: pointer;
+	background-color: transparent;
+	border: none;
+}
 /* /common_rules */
 
 /* .debug */
 .debug header {
 	height: 500px;
-	background-color: rgba(255, 0, 0, 0.404);
+	background-color: white;
 }
 
 .debug main {
@@ -72,11 +79,6 @@ body {
 .debug footer {
 	height: 500px;
 	background-color: rgba(127, 255, 212, 0.151);
-}
-
-.debug .section_nav {
-	background-color: rgb(255, 255, 0);
-	height: 100px;
 }
 
 .debug .logo {
@@ -94,14 +96,9 @@ body {
 	height: 100px;
 }
 
-.debug .center_image {
-	background-color: rgba(137, 43, 226, 0.192);
-	height: 400px;
-}
-
 .debug .text_primary {
 	background-color: rgba(175, 214, 184, 0.24);
-	height: 200px;
+	height: 400px;
 }
 
 .debug .text {
@@ -160,14 +157,100 @@ body {
 /* /.debug */
 
 /* #header */
-.center_image {
+#site_header {
+	width: 100%;
+	height: 430px;
+	background-image: url("./image/jumbo.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding-top: 1rem;
 	position: relative;
 }
 
+/* .link */
+.list_style {
+	list-style: none;
+}
+
+.list_style > li {
+	display: inline-block;
+}
+
+.link > ul > li > a {
+	color: white;
+	font-size: 0.9rem;
+	padding-right: 1.5rem;
+	text-decoration: none;
+}
+
+li:hover {
+	text-decoration: underline;
+	color: white;
+}
+/* /.link */
+
+/* .sign_in */
+.button_sign_in {
+	padding: 8px 10px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 12px;
+	cursor: pointer;
+	border: 1px solid black;
+	border-radius: 20px;
+}
+
+.button_sign_in:hover {
+	box-shadow: 5px 5px 5px #0000003f;
+	color: #151ed8;
+}
+/* /.sign_in */
+
+/* .text_primary */
 .text_primary {
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+	color: white;
+	text-align: center;
+	padding: 2rem 0;
 }
+
+#buttons_text_primary {
+	margin: 1rem 0;
+}
+
+#button_mac {
+	margin-right: 0.5rem;
+	padding: 10px 20px;
+	border: 1px solid black;
+	border-radius: 20px;
+	text-align: center;
+	font-size: 12px;
+	cursor: pointer;
+}
+
+#button_mac:hover {
+	box-shadow: 5px 5px 5px #0000003f;
+	color: #151ed8;
+}
+
+#button_discord_browser {
+	margin-left: 0.5rem;
+	padding: 10px 25px;
+	background-color: rgba(0, 0, 0, 0.733);
+	color: white;
+	border: 1px solid black;
+	border-radius: 20px;
+	text-align: center;
+	font-size: 12px;
+	cursor: pointer;
+}
+
+#button_discord_browser:hover {
+	background: rgba(128, 128, 128, 0.384);
+}
+/* /.text_primary */
 /* /#header */
