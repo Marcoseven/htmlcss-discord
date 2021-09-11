@@ -5,22 +5,63 @@
 	padding: 0;
 }
 
-.container {
-	width: 1170px;
-	margin: 2rem auto;
-}
-
 body {
 	margin: auto;
-	width: 80%;
+	width: 90%;
 	background-color: black;
+	font-family: "Catamaran", sans-serif;
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.logo,
+.link,
+.sign_in {
+	float: left;
+	width: 33.33%;
+}
+
+.text,
+.image {
+	float: left;
+	width: 50%;
+}
+
+.image_tool_action,
+.text_tool_action {
+	padding: 0.5rem 0;
+	text-align: center;
+}
+
+.primary,
+.products,
+.company,
+.resources,
+.standards {
+	float: left;
+	width: 20%;
+}
+
+.logo_footer,
+.sign_in_footer {
+	display: inline-block;
+	width: 49.8%;
 }
 /* /common_rules */
 
 /* .debug */
 .debug header {
-	background-color: rgba(255, 0, 0, 0.404);
 	height: 500px;
+	background-color: rgba(255, 0, 0, 0.404);
 }
 
 .debug main {
@@ -38,28 +79,49 @@ body {
 	height: 100px;
 }
 
-.debug .section_image {
+.debug .logo {
+	background-color: rgba(219, 173, 161, 0.363);
+	height: 100px;
+}
+
+.debug .link {
+	background-color: rgba(255, 228, 196, 0.24);
+	height: 100px;
+}
+
+.debug .sign_in {
+	background-color: rgba(221, 170, 213, 0.329);
+	height: 100px;
+}
+
+.debug .center_image {
 	background-color: rgba(137, 43, 226, 0.192);
 	height: 400px;
 }
 
-.debug .chat {
-	background-color: rgba(238, 130, 238, 0.418);
-	height: 500px;
+.debug .text_primary {
+	background-color: rgba(175, 214, 184, 0.24);
+	height: 200px;
 }
-.debug .voice_connected {
-	background-color: rgba(0, 128, 0, 0.39);
+
+.debug .text {
+	background-color: rgba(184, 174, 120, 0.274);
 	height: 500px;
 }
 
-.debug .fandom {
-	background-color: rgba(255, 166, 0, 0.438);
+.debug .image {
+	background-color: rgba(156, 109, 113, 0.24);
 	height: 500px;
 }
 
-.debug .tool_action {
-	background-color: rgba(240, 248, 255, 0.473);
-	height: 500px;
+.debug .text_tool_action {
+	background-color: rgba(245, 238, 238, 0.089);
+	height: 100px;
+}
+
+.debug .image_tool_action {
+	background-color: rgb(162, 162, 243);
+	height: 300px;
 }
 
 .debug .primary {
@@ -86,13 +148,26 @@ body {
 	height: 80px;
 }
 
-.debug .logo {
+.debug .logo_footer {
 	background-color: rgba(219, 173, 161, 0.363);
-	height: 20px;
+	height: 50px;
 }
 
-.debug .sign_in {
+.debug .sign_in_footer {
 	background-color: rgba(221, 170, 213, 0.329);
-	height: 20px;
+	height: 50px;
 }
 /* /.debug */
+
+/* #header */
+.center_image {
+	position: relative;
+}
+
+.text_primary {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+/* /#header */
