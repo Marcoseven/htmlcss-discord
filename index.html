@@ -18,7 +18,7 @@
 		<header id="site_header">
 			<!-- .logo -->
 			<div class="logo">
-				<button id="button_logo" type="submit">
+				<button type="submit">
 					<img src="./image/logo.svg" alt="logo Discord" />
 				</button>
 			</div>
@@ -38,7 +38,7 @@
 
 			<!-- .sign_in -->
 			<div class="sign_in">
-				<button class="button_sign_in" type="sumbit">Accedi</button>
+				<button type="sumbit">Accedi</button>
 			</div>
 			<!-- /.sign_in -->
 
@@ -54,10 +54,8 @@
 					ritrovarsi più spesso.
 				</p>
 				<div id="buttons_text_primary">
-					<button id="button_mac" class="button" type="submit">
-						&#8595; Scarica per Mac
-					</button>
-					<button id="button_discord_browser" class="button" type="submit">
+					<button id="button_mac" type="submit">&#8595; Scarica per Mac</button>
+					<button id="button_discord_browser" type="submit">
 						Apri Discord nel tuo browser
 					</button>
 				</div>
@@ -70,30 +68,109 @@
 		<main id="site_main">
 			<!-- .chat -->
 			<section class="chat">
-				<div class="image"></div>
-				<div class="text"></div>
+				<div class="container">
+					<div class="image">
+						<img
+							class="image_main"
+							src="./image/item1.svg"
+							alt="immagine artistica di una chat su Discord"
+						/>
+					</div>
+					<div class="text">
+						<h2>
+							Un luogo invito a <br />
+							invito con tutto <br />
+							lo spazio <br />necessario per <br />parlare
+						</h2>
+						<p>
+							I server Discord sono organizzati in <br />canali tematici in cui
+							puoi collaborare, <br />condividere o semplicemente parlare
+							<br />della tua gionata senza intasare una <br />chat di gruppo.
+						</p>
+					</div>
+				</div>
 			</section>
 			<!-- /.chat -->
 
 			<!-- .voice_connected -->
 			<section class="voice_connected">
-				<div class="text"></div>
-				<div class="image"></div>
+				<div class="container">
+					<div class="text">
+						<h2>
+							Dove trovarsi è <br />
+							facile
+						</h2>
+						<p>
+							Mettiti comodo in un canale vocale <br />quando hai tempo. Gli
+							amici nel tuo <br />server possono vedere che sei lì a unirsi
+							<br />istanteneamente senza dover chiamare.
+						</p>
+					</div>
+					<div class="image">
+						<img
+							class="image_main"
+							src="./image/item2.svg"
+							alt="immagine artistica di una chat su Discord con scambio di messaggi vocali"
+						/>
+					</div>
+				</div>
 			</section>
 			<!-- /.voice_connected -->
 
 			<!-- .fandom -->
 			<section class="fandom">
-				<div class="image"></div>
-				<div class="text"></div>
+				<div class="container">
+					<div class="image">
+						<img
+							class="image_main"
+							src="./image/item3.svg"
+							alt="immagine artistica di un gruppo su Discord"
+						/>
+					</div>
+					<div class="text">
+						<h2>Da pochi a un <br />fandom</h2>
+						<p>
+							Dai inizio a una community di qualsiasi <br />
+							dimensione con strumenti di <br />
+							moderazione e accesso ai membri <br />
+							personalizzabile. Concedi ai membri <br />
+							poteri speciali, crea canali privati, e <br />
+							molto altro.
+						</p>
+					</div>
+				</div>
 			</section>
 			<!-- /.fandom -->
 
 			<!-- .tool_action -->
 			<section class="tool_action">
-				<div class="text_tool_action"></div>
-				<div class="image_tool_action"></div>
-				<div class="text_tool_action"></div>
+				<div class="container">
+					<div class="text_tool_action_on">
+						<h2>Tecnologia affidabile per mettersi in contatto</h2>
+						<p>
+							Video e audio a bassa latenza ti fanno sentire come se foste tutti
+							nella stessa stanza. Fai ciao in video, guarda <br />
+							gli amici giocare in streaming o riunitevi in una sessione di
+							disegno con la condivisione dello schermo.
+						</p>
+					</div>
+					<div class="image_tool_action">
+						<img
+							src="./image/item4-big.svg"
+							alt="immagine artistica di un streaming su Discord"
+						/>
+					</div>
+					<div class="text_tool_action_down">
+						<img
+							src="./image/stars.svg"
+							alt="immagine artistica di quattro stelle colorate"
+						/>
+						<h3>Pronti a iniziare la tua avventura?</h3>
+						<button id="button_mac" class="button" type="submit">
+							&#8595; Scarica per Mac
+						</button>
+					</div>
+				</div>
 			</section>
 			<!-- /.tool_action -->
 		</main>
