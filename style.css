@@ -15,6 +15,9 @@ body {
 .container {
 	width: 1170px;
 	margin: 0 auto;
+	padding-top: 4rem;
+	position: relative;
+	height: 100%;
 }
 
 .clearfix::after {
@@ -56,12 +59,6 @@ body {
 .sign_in_footer {
 	display: inline-block;
 	width: 49.8%;
-}
-
-#button_logo {
-	cursor: pointer;
-	background-color: transparent;
-	border: none;
 }
 /* /common_rules */
 
@@ -168,6 +165,12 @@ body {
 	position: relative;
 }
 
+.logo > button {
+	cursor: pointer;
+	background-color: transparent;
+	border: none;
+}
+
 /* .link */
 .list_style {
 	list-style: none;
@@ -191,7 +194,7 @@ li:hover {
 /* /.link */
 
 /* .sign_in */
-.button_sign_in {
+.sign_in > button {
 	padding: 8px 10px;
 	text-align: center;
 	text-decoration: none;
@@ -201,7 +204,7 @@ li:hover {
 	border-radius: 20px;
 }
 
-.button_sign_in:hover {
+.sign_in > button:hover {
 	box-shadow: 5px 5px 5px #0000003f;
 	color: #151ed8;
 }
@@ -218,17 +221,22 @@ li:hover {
 	padding: 2rem 0;
 }
 
-#buttons_text_primary {
-	margin: 1rem 0;
+.text_primary > h1 {
+	font-size: 50px;
+	font-weight: 900;
+}
+
+.text_primary > p {
+	padding-bottom: 1rem;
 }
 
 #button_mac {
 	margin-right: 0.5rem;
-	padding: 10px 20px;
+	padding: 12px 25px;
 	border: 1px solid black;
 	border-radius: 20px;
 	text-align: center;
-	font-size: 12px;
+	font-size: 14px;
 	cursor: pointer;
 }
 
@@ -239,13 +247,13 @@ li:hover {
 
 #button_discord_browser {
 	margin-left: 0.5rem;
-	padding: 10px 25px;
+	padding: 12px 25px;
 	background-color: rgba(0, 0, 0, 0.733);
 	color: white;
 	border: 1px solid black;
 	border-radius: 20px;
 	text-align: center;
-	font-size: 12px;
+	font-size: 14px;
 	cursor: pointer;
 }
 
@@ -254,3 +262,157 @@ li:hover {
 }
 /* /.text_primary */
 /* /#header */
+
+/* #site_main */
+#site_main {
+	width: 100%;
+}
+
+/* .chat */
+.chat {
+	height: 500px;
+	width: 100%;
+	background-color: white;
+}
+
+/* .image */
+.chat,
+.image {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	padding: 0;
+}
+
+.chat img {
+	width: 100%;
+}
+/* /.image */
+
+/* .text */
+.chat .text {
+	text-align: left;
+	font-size: 20px;
+	font-weight: 900;
+	padding-left: 6.5rem;
+}
+/* /.text */
+/* /.chat */
+
+/* .voice_connected */
+.voice_connected {
+	height: 500px;
+	width: 100%;
+	background-color: white;
+}
+
+/* .text */
+.voice_connected .text {
+	text-align: left;
+	font-size: 20px;
+	font-weight: 900;
+	padding-right: 6.5rem;
+}
+/* /.text */
+
+/* .image */
+.voice_connected .image {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	padding: 0;
+}
+
+.voice_connected img {
+	width: 100%;
+}
+/* /.image */
+/* /.voice_connected */
+
+/* .fandom */
+.fandom {
+	height: 500px;
+	width: 100%;
+	background-color: white;
+}
+
+/* .image */
+.fandom .image {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	padding: 0;
+}
+
+.fandom img {
+	width: 100%;
+}
+/* /.image */
+
+/* .text */
+.fandom,
+.text {
+	text-align: left;
+	font-size: 20px;
+	font-weight: 900;
+	padding-left: 6.5rem;
+}
+/* /.text */
+/* /.fandom */
+
+/* .tool_action */
+.tool_action {
+	width: 100%;
+	height: 1200px;
+	background-color: white;
+}
+
+/* .text_tool_action_on */
+.text_tool_action_on > h2 {
+	font-size: 45px;
+	font-weight: 900;
+	text-align: center;
+}
+
+.text_tool_action_on > p {
+	font-size: 20px;
+	font-weight: 900;
+	text-align: center;
+}
+/* /.text_tool_action_on */
+
+/* .image_tool_action */
+.image_tool_action {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	padding: 0;
+}
+
+.tool_action img {
+	width: 100%;
+}
+/* .image_tool_action */
+
+/* .text_tool_action_down */
+.text_tool_action_down > h3 {
+	font-size: 30px;
+	font-weight: 900;
+	text-align: center;
+}
+
+.text_tool_action_down > #button_mac {
+	background-color: #8ea1e1;
+	color: white;
+	margin-top: 2rem;
+	position: relative;
+	left: 40%;
+	bottom: 0%;
+}
+
+.text_tool_action_down > #button_mac:hover {
+	background: rgba(128, 128, 128, 0.384);
+}
+/* /.text_tool_action_down */
+/* /.tool_action */
+/* /#site_main */
