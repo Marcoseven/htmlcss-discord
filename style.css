@@ -6,8 +6,6 @@
 }
 
 body {
-	margin: auto;
-	width: 90%;
 	background-color: black;
 	font-family: "Catamaran", sans-serif;
 }
@@ -63,7 +61,7 @@ body {
 
 .chat,
 .fandom .text {
-	padding-left: 6.5rem;
+	padding-left: 7rem;
 }
 
 .title_secondary {
@@ -430,7 +428,6 @@ li:hover {
 /* #site_footer */
 #site_footer {
 	width: 100%;
-	height: 550px;
 	background-color: #23272a;
 	position: relative;
 }
@@ -483,28 +480,14 @@ li:hover {
 	cursor: pointer;
 }
 
-/* inizio codice prova */
-/* .list_style {
-	list-style: none;
-}
-
-.list_style > li {
+.primary form {
 	display: inline-block;
+	padding-left: 0.5rem;
 }
 
-.link > ul > li > a {
-	color: white;
-	font-size: 0.9rem;
-	padding-right: 1.5rem;
-	text-decoration: none;
+.primary select:hover {
+	cursor: pointer;
 }
-
-li:hover {
-	text-decoration: underline;
-	color: white;
-} */
-/* fine codice prova */
-/* /.primary */
 
 /* .products */
 .products {
