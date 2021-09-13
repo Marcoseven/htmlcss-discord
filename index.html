@@ -11,6 +11,13 @@
 			href="https://fonts.googleapis.com/css2?family=Catamaran:wght@500&display=swap"
 			rel="stylesheet"
 		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+			integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
 		<title>Discord</title>
 	</head>
 	<body class="">
@@ -37,7 +44,7 @@
 			<!-- /.link -->
 
 			<!-- .sign_in -->
-			<div class="sign_in">
+			<div class="enter">
 				<button type="sumbit">Accedi</button>
 			</div>
 			<!-- /.sign_in -->
@@ -68,7 +75,7 @@
 		<main id="site_main">
 			<!-- .chat -->
 			<section class="chat">
-				<div class="container">
+				<div class="container clearfix">
 					<div class="image">
 						<img
 							class="image_main"
@@ -77,8 +84,8 @@
 						/>
 					</div>
 					<div class="text">
-						<h2>
-							Un luogo invito a <br />
+						<h2 class="title_secondary">
+							Un luogo a <br />
 							invito con tutto <br />
 							lo spazio <br />necessario per <br />parlare
 						</h2>
@@ -94,7 +101,7 @@
 
 			<!-- .voice_connected -->
 			<section class="voice_connected">
-				<div class="container">
+				<div class="container clearfix">
 					<div class="text">
 						<h2>
 							Dove trovarsi è <br />
@@ -119,7 +126,7 @@
 
 			<!-- .fandom -->
 			<section class="fandom">
-				<div class="container">
+				<div class="container clearfix">
 					<div class="image">
 						<img
 							class="image_main"
@@ -146,7 +153,7 @@
 			<section class="tool_action">
 				<div class="container">
 					<div class="text_tool_action_on">
-						<h2>Tecnologia affidabile per mettersi in contatto</h2>
+						<h2>Tecnologia affidabile per tenersi in contatto</h2>
 						<p>
 							Video e audio a bassa latenza ti fanno sentire come se foste tutti
 							nella stessa stanza. Fai ciao in video, guarda <br />
@@ -165,7 +172,7 @@
 							src="./image/stars.svg"
 							alt="immagine artistica di quattro stelle colorate"
 						/>
-						<h3>Pronti a iniziare la tua avventura?</h3>
+						<h3>Pronto a iniziare la tua avventura?</h3>
 						<button id="button_mac" class="button" type="submit">
 							&#8595; Scarica per Mac
 						</button>
@@ -178,36 +185,106 @@
 
 		<!-- #footer -->
 		<footer id="site_footer">
-			<div>
-				<!-- .primary -->
-				<section class="primary"></section>
-				<!-- /.primary -->
+			<section class="clearfix">
+				<div class="container clearfix">
+					<!-- .primary -->
+					<div class="primary">
+						<h3>Il tuo posto per <br />parlare</h3>
+						<img src="./image/ita.png" alt="" />
+						<span id="country"> <strong>Italiano</strong></span>
+						<i style="color: white" class="fas fa-angle-down"></i>
+						<nav>
+							<ul class="list_style">
+								<li><i class="fab fa-twitter"></i></li>
+								<li><i class="fab fa-instagram"></i></li>
+								<li><i class="fab fa-facebook"></i></li>
+								<li><i class="fab fa-youtube"></i></li>
+							</ul>
+						</nav>
+					</div>
+					<!-- /.primary -->
 
-				<!-- .products -->
-				<section class="products"></section>
-				<!-- /.products -->
+					<!-- .products -->
+					<div class="products">
+						<strong>Prodotto</strong>
+						<ul class="list_style_footer">
+							<li><a href="#">Scarica</a></li>
+							<li><a href="#">Perché Discord</a></li>
+							<li><a href="#">Nitro</a></li>
+							<li><a href="#">Sicurezza</a></li>
+							<li><a href="#">Assistenza</a></li>
+						</ul>
+					</div>
+					<!-- /.products -->
 
-				<!-- .company -->
-				<section class="company"></section>
-				<!-- /.company -->
+					<!-- .company -->
+					<div class="company">
+						<strong>Compagnia</strong>
+						<ul class="list_style_footer">
+							<li><a href="#">Chi siamo</a></li>
+							<li><a href="#">Lavora con noi</a></li>
+							<li><a href="#">Marchio</a></li>
+							<li><a href="#">Redazione</a></li>
+							<li><a href="#">Negozio</a></li>
+						</ul>
+					</div>
+					<!-- /.company -->
 
-				<!-- .resources -->
-				<section class="resources"></section>
-				<!-- /.resources -->
+					<!-- .resources -->
+					<div class="resources">
+						<strong>Risorse</strong>
+						<ul class="list_style_footer">
+							<li><a href="#">Scarica</a></li>
+							<li><a href="#">Perché Discord</a></li>
+							<li><a href="#">Nitro</a></li>
+							<li><a href="#">Sicurezza</a></li>
+							<li><a href="#">Assitenza</a></li>
+							<li><a href="#">Scarica</a></li>
+							<li><a href="#">Perché Discord</a></li>
+							<li><a href="#">Nitro</a></li>
+							<li><a href="#">Sicurezza</a></li>
+							<li><a href="#">Assitenza</a></li>
+							<li><a href="#">Assitenza</a></li>
+						</ul>
+					</div>
+					<!-- /.resources -->
 
-				<!-- .standards -->
-				<section class="standards"></section>
-				<!-- /.standards -->
-			</div>
+					<!-- .standards -->
+					<div class="standards">
+						<strong>Norme</strong>
+						<ul class="list_style_footer">
+							<li><a href="#">Scarica</a></li>
+							<li><a href="#">Perché Discord</a></li>
+							<li><a href="#">Nitro</a></li>
+							<li><a href="#">Sicurezza</a></li>
+							<li><a href="#">Assitenza</a></li>
+						</ul>
+					</div>
+					<!-- /.standards -->
+				</div>
 
-			<!-- .logo_footer -->
-			<div class="logo_footer"></div>
-			<!-- /.logo_footer -->
+				<div class="container">
+					<div class="hr"></div>
+				</div>
 
-			<!-- .sign_in_footer -->
-			<div class="sign_in_footer"></div>
-			<!-- /.sign_in_footer -->
+				<div class="container">
+					<!-- .logo_footer -->
+					<div class="logo_footer">
+						<button type="submit">
+							<img src="./image/logo.svg" alt="logo Discord" />
+						</button>
+					</div>
+					<!-- /.logo_footer -->
+
+					<!-- .sign_in -->
+					<div class="sign_in">
+						<button type="sumbit">Registrati</button>
+					</div>
+					<!-- /.sign_in -->
+				</div>
+			</section>
 		</footer>
 		<!-- /#footer -->
+		<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 	</body>
 </html>
